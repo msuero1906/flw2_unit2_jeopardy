@@ -34,4 +34,12 @@ let categories = [
  */
 function renderCategories() {
     // Add code here
+    for(let element of categories){
+        let categoryColumn=
+        "<div class='category'><div class='category-cell'>" +
+        element +
+        "</div></div>";
+        $("#categories").append(categoryColumn);
+
+    }
 }

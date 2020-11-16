@@ -36,4 +36,12 @@ let questionValues = [100, 200, 300, 400, 500];
  */
 function renderQuestions() {
     // Add code here
+for (let i = 0; i < numCategories ; i++ ){
+   let questionsHtml= "<div class='question'></div>";
+    for (const questionVal of questionValues){
+    console.log(questionVal);
+
+questionsHtml=questionHtml +"<div class='question-cell'>VALUE</div>"
+}
+}
 }
